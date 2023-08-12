@@ -12,40 +12,40 @@ function App() {
   const [colaboradores, actualizarColaboradores] = useState([{
     id: uuid(),
     equipo: "Front End",
-    foto: "https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/cara-hombre-sonriendo.jpg?resize=500%2C500&ssl=1",
-    nombre: "Pedro Sanchez",
+    foto: "https://github.com/harlandlohora.png",
+    nombre: "Harland Lohora",
     puesto: "Instructor",
     fav: true
   },
   {
     id: uuid(),
     equipo: "Programación",
-    foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMiBS-IivymCOwMHtLSjxx7u-0-qT_cRpD3k3O3no_P611iNO05U4zbqGg0Y480JFqUIE&usqp=CAU",
-    nombre: "Paula Saumerio",
+    foto: "https://github.com/genesysaluralatam.png",
+    nombre: "Genesys Rondón",
     puesto: "Desarrolladora de software e instructora",
     fav: false
   },
   {
     id: uuid(),
     equipo: "UX y Diseño",
-    foto: "https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/hombre-maduro-guapo.jpg?resize=500%2C500&ssl=1",
-    nombre: "Jose Manuel Perez",
-    puesto: "Instructor en Alura Latam",
+    foto: "https://github.com/JeanmarieAluraLatam.png",
+    nombre: "Jeanmarie Quijada",
+    puesto: "Instructora en Alura Latam",
     fav: false
   },
   {
     id: uuid(),
     equipo: "Programación",
-    foto: "https://media.biobiochile.cl/wp-content/uploads/2019/02/captura-realizada-el-2019-02-25-17-21-56.png",
-    nombre: "Sofia Lavalle",
-    puesto: "Head de Alura e Instructora",
-    fav: true
+    foto: "https://github.com/christianpva.png",
+    nombre: "Christian Velasco",
+    puesto: "Head de Alura e Instructor",
+    fav: false
   },
   {
     id: uuid(),
     equipo: "Innovación y Gestión",
-    foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZf8EG9Ytl34gEZ1DIxyPZFOt4lMcCUFtokmhmTMvW1SO5-AAtQePqZM6N1CKFeN06I98&usqp=CAU",
-    nombre: "Jorge Gonzalez",
+    foto: "https://github.com/JoseDarioGonzalezCha.png",
+    nombre: "Jose Gonzalez",
     puesto: "Dev FullStack",
     fav: false
   }])
